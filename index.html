@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+              }
+            }
+          }
+        }
+      </script>
+</head>
+
+<body>
+
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo"><span class="logo"><</span>OSPC<span class="logo">></span></a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link nav-item-active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Speakers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Schedule</a>
+                </li>
+            </ul>
+            <a href="#" class="py-2 px-6 rounded-md text-base text-white font-medium bg-red-500">Register Here</a>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
